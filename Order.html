@@ -1,0 +1,74 @@
+<!document html>
+<html lang="en">
+<meta charset="utf-8">
+	<head>
+		<title>Shrestha's Kitchen</title>
+		<link rel="stylesheet" href="kitchen.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<a href="index.html"><img src="images/Kitchenlogo.png" id="logo" alt="Shrestha's Kitchen Logo"></a>
+				
+				<ul>
+					<li><a href="index.html" class="navig">Home</a></li>
+					<li><a href="menu.html#temp" class="navig">Menu</a></li>
+					<li><a href="Order.html" id="active" class="navig">Order Online</a></li>
+					<li><a href="contact.html" class="navig">Contact Us</a></li>
+				</ul>
+		</header>
+        <section id="main">
+			<div class="ordercontainer">
+				<div class="orderRow">
+				<p><h1 class="contact"> What do you like to eat today? </h1></p>
+				<p></p>
+				</div>
+				<div class= "orderRow">
+					<label for="name">Name:</label>
+					<p><input type="text" name="name" placeholder="eg: John Wick"></p>
+				</div>
+				<div class= "orderRow">
+					<label for="food_item">Food item:</label>
+					<p>
+						<select>
+							<option value="buffChhway_la">Buff Chhway La</option>
+							<option value="badam_sandeko">Musya, Alu Tusi Achaar, Badam Sandeko</option>
+							<option value="chickenChhway_la">Chicken Chhway La</option>
+							<option value="buff_sukuti">Suku La (buff sukuti)</option>
+							<option value="khasi_sukuti">Khasiko Sukuti</option>
+							<option value="non-veg">Newari Non-Vegetarian Platter</option>
+							<option value="kachi_la">Kachi La</option>
+							<option value="buff_keema">Sandeko buff keema</option>
+							<option value="mutton_fokso">Tareko mutton phokso</option>
+							<option value="mutton_bhutun">Khasiko Bhutun</option>
+							<option value="kha_go">Kha Go</option>
+							<option value="Nhyepu">Nhyepu</option>
+						</select>
+					</p>
+				</div>
+				<div class= "orderRow">
+					<label for="quantity">Quantity:</label>
+					<p><input type="number" name="quantity" min="1" max="20"></p>
+				</div>
+				<div class= "orderRow">
+					<label for="location">Location:</label>
+					<p><input type="text" name="location"></p>
+				</div>
+				<div class= "orderRow">
+					<label for="Phone">Phone no.:</label>
+					<p><input type="tel" name="phone"></p>
+				</div>
+				<div class= "orderRow">
+					<label></label>
+					<p>
+						<input type="submit" name="submit2" value="Place Order" class="btn"></p>
+					</p>
+				</div>
+			</div>
+			<footer>
+                <p>&copy 2021, Shrestha's Kitchen.</p>
+                <p>All trademarks and registered trademarks appearing on this site are the property of their respective owners.</p>
+            </footer>
+        </section>
+	</body>
+</html>
